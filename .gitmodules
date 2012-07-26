@@ -4,3 +4,6 @@
 [submodule "IndentGuides"]
 	path = IndentGuides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "delimitMate"]
+	path = delimitMate
+	url = git://github.com/Raimondi/delimitMate.git
