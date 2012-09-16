@@ -7,3 +7,6 @@
 [submodule "delimitMate"]
 	path = delimitMate
 	url = git://github.com/Raimondi/delimitMate.git
+[submodule "powerLine"]
+	path = powerLine
+	url = git://github.com/Lokaltog/vim-powerline.git
