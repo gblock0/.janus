@@ -10,3 +10,6 @@
 [submodule "powerLine"]
 	path = powerLine
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "vim-stylus"]
+	path = vim-stylus
+	url = git://github.com/wavded/vim-stylus.git
