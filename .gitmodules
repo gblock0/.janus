@@ -19,3 +19,6 @@
 [submodule "MatchTag"]
 	path = MatchTag
 	url = git://github.com/gregsexton/MatchTag.git
+[submodule "c.vim"]
+	path = c.vim
+	url = git://github.com/vim-scripts/c.vim.git
