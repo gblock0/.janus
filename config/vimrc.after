@@ -5,6 +5,55 @@ let g:indent_guides_guide_size = 1
 let g:ctrlp_working_path_mode = 2
 IndentGuidesEnable
 
+set nocompatible
+
+set modelines=0
+set relativenumber
+
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+"disable arrow keys in insert mode
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+
+"Disable help F1 key
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
+"If focus is lost on vim then save file
+au FocusLost * :wa
+
+"strip all trailing whitespace in the current file
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+nnoremap <leader>a :Ack
+
+"Reselect the text that was just pasted
+nnoremap <leader>v V`]
+
+"Use 'jj' to go back to normal mode from insert mode
+inoremap jj <ESC>
+
+"create a new vsplit and switch to it
+nnoremap <leader>w <C-w>v<C-w>l
+
+"Change window movement commands
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+"Have rainbow parens always on
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 

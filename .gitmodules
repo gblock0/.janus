@@ -22,3 +22,6 @@
 [submodule "c.vim"]
 	path = c.vim
 	url = git://github.com/vim-scripts/c.vim.git
+[submodule "rainbow_parentheses.vim"]
+	path = rainbow_parentheses.vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git
