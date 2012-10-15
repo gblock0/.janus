@@ -31,7 +31,7 @@ au FocusLost * :wa
 "strip all trailing whitespace in the current file
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ack 
 
 "Reselect the text that was just pasted
 nnoremap <leader>v V`]
