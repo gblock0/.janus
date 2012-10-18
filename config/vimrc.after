@@ -11,8 +11,6 @@ set modelines=0
 set relativenumber
 
 nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
-vnoremap <tab> %
 
 "disable arrow keys in insert mode
 inoremap <up> <nop>
@@ -53,6 +51,10 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+"Tab key matches bracket pairs
+nnoremap <tab> %
+vnoremap <tab> %
 
 filetype plugin on
 set ofu=syntaxcomplete#Complete
