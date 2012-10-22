@@ -25,3 +25,6 @@
 [submodule "rainbow_parentheses.vim"]
 	path = rainbow_parentheses.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
+[submodule "Txtfmt-The-Vim-Highlighter"]
+	path = Txtfmt-The-Vim-Highlighter
+	url = git://github.com/vim-scripts/Txtfmt-The-Vim-Highlighter.git
