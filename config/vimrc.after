@@ -10,6 +10,7 @@ set nocompatible
 set modelines=0
 set relativenumber
 
+
 nnoremap <leader><space> :noh<cr>
 
 "disable arrow keys in insert mode
