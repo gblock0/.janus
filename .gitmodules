@@ -28,3 +28,6 @@
 [submodule "vim-slim"]
 	path = vim-slim
 	url = git://github.com/bbommarito/vim-slim.git
+[submodule "Txtfmt-The-Vim-Highlighter"]
+	path = Txtfmt-The-Vim-Highlighter
+	url = git://github.com/vim-scripts/Txtfmt-The-Vim-Highlighter.git
