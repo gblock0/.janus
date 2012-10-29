@@ -25,9 +25,6 @@
 [submodule "rainbow_parentheses.vim"]
 	path = rainbow_parentheses.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
-[submodule "slim"]
-	path = slim
-	url = git://github.com/stonean/slim.git
 [submodule "vim-slim"]
 	path = vim-slim
 	url = git://github.com/bbommarito/vim-slim.git
