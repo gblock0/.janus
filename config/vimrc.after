@@ -9,6 +9,9 @@ set nocompatible
 
 set modelines=0
 
+" wrap long lines
+set nowrap
+
 
 nnoremap <leader><space> :noh<cr>
 
@@ -55,6 +58,9 @@ au Syntax * RainbowParenthesesLoadBraces
 "Tab key matches bracket pairs
 nnoremap <tab> %
 vnoremap <tab> %
+
+" Stupid shift key fixes
+cmap W w
 
 filetype plugin on
 set ofu=syntaxcomplete#Complete
