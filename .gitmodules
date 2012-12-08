@@ -31,3 +31,6 @@
 [submodule "Txtfmt-The-Vim-Highlighter"]
 	path = Txtfmt-The-Vim-Highlighter
 	url = git://github.com/vim-scripts/Txtfmt-The-Vim-Highlighter.git
+[submodule "checksyntax_vim"]
+	path = checksyntax_vim
+	url = git://github.com/tomtom/checksyntax_vim.git
