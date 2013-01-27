@@ -43,6 +43,9 @@ inoremap jj <ESC>
 "create a new vsplit and switch to it
 nnoremap <leader>w <C-w>v<C-w>l
 
+"create a new split and switch to it
+nnoremap <leader>s <C-w>s<C-w>j
+
 "Change window movement commands
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
