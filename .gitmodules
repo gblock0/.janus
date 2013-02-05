@@ -34,3 +34,6 @@
 [submodule "checksyntax_vim"]
 	path = checksyntax_vim
 	url = git://github.com/tomtom/checksyntax_vim.git
+[submodule "YouCompleteMe"]
+	path = YouCompleteMe
+	url = git://github.com/Valloric/YouCompleteMe.git
