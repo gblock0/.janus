@@ -40,3 +40,6 @@
 [submodule "vim-obsession"]
 	path = vim-obsession
 	url = https://github.com/tpope/vim-obsession.git
+[submodule "vim-jade"]
+	path = vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
