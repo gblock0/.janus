@@ -43,3 +43,6 @@
 [submodule "vim-jade"]
 	path = vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "vim-session"]
+	path = vim-session
+	url = https://github.com/xolox/vim-session.git
