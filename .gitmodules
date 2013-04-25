@@ -46,3 +46,6 @@
 [submodule "vim-session"]
 	path = vim-session
 	url = https://github.com/xolox/vim-session.git
+[submodule "vim-javascript-syntax"]
+	path = vim-javascript-syntax
+	url = git://github.com/jelera/vim-javascript-syntax.git
