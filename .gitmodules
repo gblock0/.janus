@@ -49,3 +49,6 @@
 [submodule "vim-javascript-syntax"]
 	path = vim-javascript-syntax
 	url = git://github.com/jelera/vim-javascript-syntax.git
+[submodule "vim-chino"]
+	path = vim-chino
+	url = git@github.com:gblock0/vim-chino.git

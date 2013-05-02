@@ -13,7 +13,10 @@ set modelines=0
 " wrap long lines
 set nowrap
 
+" Reload syntax highlighting
+nmap <leader>x :syn off | syn on
 
+"Turn off highlighting
 nnoremap <leader><space> :noh<cr>
 
 "disable arrow keys in insert mode
