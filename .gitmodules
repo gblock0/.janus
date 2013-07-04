@@ -52,3 +52,6 @@
 [submodule "vim-chino"]
 	path = vim-chino
 	url = git@github.com:gblock0/vim-chino.git
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/scrooloose/syntastic.git
