@@ -49,3 +49,6 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim-slim"]
+	path = vim-slim
+	url = https://github.com/slim-template/vim-slim.git
