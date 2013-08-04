@@ -25,9 +25,6 @@
 [submodule "rainbow_parentheses.vim"]
 	path = rainbow_parentheses.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
-[submodule "vim-slim"]
-	path = vim-slim
-	url = git://github.com/bbommarito/vim-slim.git
 [submodule "Txtfmt-The-Vim-Highlighter"]
 	path = Txtfmt-The-Vim-Highlighter
 	url = git://github.com/vim-scripts/Txtfmt-The-Vim-Highlighter.git
@@ -43,9 +40,6 @@
 [submodule "vim-jade"]
 	path = vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
-[submodule "vim-session"]
-	path = vim-session
-	url = https://github.com/xolox/vim-session.git
 [submodule "vim-javascript-syntax"]
 	path = vim-javascript-syntax
 	url = git://github.com/jelera/vim-javascript-syntax.git
