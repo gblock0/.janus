@@ -52,3 +52,6 @@
 [submodule "vim-slim"]
 	path = vim-slim
 	url = https://github.com/slim-template/vim-slim.git
+[submodule "clang_complete"]
+	path = clang_complete
+	url = https://github.com/Rip-Rip/clang_complete.git
