@@ -28,9 +28,6 @@
 [submodule "checksyntax_vim"]
 	path = checksyntax_vim
 	url = git://github.com/tomtom/checksyntax_vim.git
-[submodule "YouCompleteMe"]
-	path = YouCompleteMe
-	url = git://github.com/Valloric/YouCompleteMe.git
 [submodule "vim-obsession"]
 	path = vim-obsession
 	url = https://github.com/tpope/vim-obsession.git
@@ -49,6 +46,3 @@
 [submodule "vim-slim"]
 	path = vim-slim
 	url = https://github.com/slim-template/vim-slim.git
-[submodule "clang_complete"]
-	path = clang_complete
-	url = https://github.com/Rip-Rip/clang_complete.git
